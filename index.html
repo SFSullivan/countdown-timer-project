@@ -9,13 +9,19 @@
 </head>
 <body class = body>
     <header>
-        <div> <h1 class = main-header> The Java Quiz!</h1> </div>
+        <div> <p>Time:<span id = 'timeRemain'></span></p></div>
     </header>
-
-    <div>
-        <!-- Start Quiz Button-->
-        <div id = 'start-button'> <button>Start Quiz!</button> </div>
-
+        <div id = 'mainWrapper'>
+            <div id = 'grid'>
+                <p id = 'showQuestion'>The Java Quiz</p>
+                <!-- Start Quiz Button-->
+                <button class ='answBtn' id = startQuizBtn>Start Quiz!</button> </div>
+                <button class ='answBtn' id = 'answer1'></button>
+                <button class ='answBtn' id = 'answer2'></button>
+                <button class ='answBtn' id = 'answer3'></button>
+                <button class ='answBtn' id = 'answer4'></button>
+            </div>
+        </div>
     <script src="./assets/js/app.js"></script>
 </body>
 </html>
